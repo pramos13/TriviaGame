@@ -1,58 +1,64 @@
-<!DOCTYPE>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Trivia Game</title>
 	<meta charset="UTF-8">
+	<title>Timed Trivia</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
-	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-</head>
-<body>
-	<div class="homepage">
-		<div class="row homeheader">
-			<div class="col-md-12 text-center">
-				<h1>Gaming Trivia!</h1>
-	</div>
 
-	<div class="row">
-		<div class="col-md-12 text-center about">
-			<img src="assets/images/gaming.jpg">
-				<h3>Welcome to gaming trivia! In this game you will be given 25 seconds to guess the correct answer to the question. When you are ready to begin hit the start button, goodluck!!</h3>
-					<button type="button" class="btn-success" id="startbutton" onclick="play();">Start Game</button>
-						<div id="embed"></div>
-	</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-		<div class="outcome" style="display: none;">
-	</div>
-
-		<div class="questions" style="display: none;">
-			<div class="row">
-				<div class="options text-center"></div>
-				<div class="text text-center"></div>
-				<div class="timer text-center"></div>
-				<div class="results text-center"></div>
-	</div>
-		<div class="clearfix"></div>
-
-	<div class="answers">
-		<div class="row">
-			<div class="options text-center"></div>
-			<div class="timer text-center"></div>
-			<div class="results text-center"></div>
-	</div>
-	<div class="clearfix"></div>
-
-	<script type="text/javascript" src="assets/js/app.js"></script>
-
-</body>
+	<link href='https://fonts.googleapis.com/css?family=Belgrano|Josefin+Slab:400,300,400italic,600,600italic,700,700italic|Cutive' rel='stylesheet' type='text/css'>
 	
 
+</head>
+<body>		
+	<div class="container-fluid maincontent">
+		
+		<div class="welcomePage">
+			<div class="row12 welcomeHeader">
+				<div class="col-md-12 text-center">
+					<h1>Welcome to Gaming Trivia</h1>
+					<p><span class="glyphicon glyphicon-cd
+				" aria-hidden="true"></span> Are you a true gamer, or just another noob!!. 						<span class="glyphicon glyphicon-cd" aria-hidden="true"></span></p>
+				</div>
+			</div>
+
+			
+			<div class="row12">
+				<div class="col-md-12 text-center welcomeText">
+					<img src="assets/images/gaming.jpg">
+					<p>Welcome to gaming trivia! In this game you will be given 25 seconds to guess the correct answer to the question. When you are ready to begin hit the start button, GLHF!!. </p>
+					<button type="button" class="btn btn-success" id="startButton">Get Started</button>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="questionPage" style="display: none;">
+			<div class="row12">
+				<div class="timer text-center"></div>
+				<div class="text text-center"></div>
+				<div class="result text-center"></div>
+				<div class="options text-center"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
 
 
-
-
-
+		<div class="summaryPage" style="display: none;">
+			
+		</div>
+		
+		
 	</div>
+	
+	
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	
+</body>
 </html>

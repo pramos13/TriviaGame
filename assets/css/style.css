@@ -1,0 +1,72 @@
+body{
+	font-family: 'Josefin Slab', serif;
+	color: #777777;
+    background-image: url("../images/background.jpg");
+}
+
+p {
+	font-size: 20px;
+}
+
+
+
+.maincontent {
+	background-color: white;
+	margin-top: 60px;
+	max-width: 960px;
+	border-radius: 5px;
+}
+
+.welcomeText {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-success {
+	background-color: green;
+	border: 1px solid green;
+	font-size: 24px;
+}
+
+.options li {
+	list-style: none;
+	font-size: 24px;
+	padding:10px, 25px;
+	margin:10px auto;
+	max-width: 300px;
+	border: 1px solid blue;
+}
+
+.options li:hover, .options li:focus {
+	background-color: blue;
+	border: 1px solid blue;
+	color: #fff;
+}
+
+.correct {
+	background-color: green;
+	border: 1px solid green;
+	font-weight: 700;
+	color: #fff;
+}
+
+.wrong {
+	background-color: red;
+	border: 1px solid red;
+	font-weight: 700;
+	color: #fff;
+}
+
+.text, .options {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.result {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.result p {
+	font-weight: 700;
+}
