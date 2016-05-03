@@ -1,6 +1,6 @@
 body{
 	font-family: 'Josefin Slab', serif;
-	color: #777777;
+	color: gray;
     background-image: url("../images/background.jpg");
 }
 
@@ -40,21 +40,21 @@ p {
 .options li:hover, .options li:focus {
 	background-color: blue;
 	border: 1px solid blue;
-	color: #fff;
+	color: yellow;
 }
 
 .correct {
 	background-color: green;
 	border: 1px solid green;
 	font-weight: 700;
-	color: #fff;
+	color: yellow;
 }
 
 .wrong {
 	background-color: red;
 	border: 1px solid red;
 	font-weight: 700;
-	color: #fff;
+	color: yellow;
 }
 
 .text, .options {
