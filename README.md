@@ -1,2 +1,2 @@
 # TriviaGame
-Timed trivia game with a gaming theme! Was built using Javascript and jQuery ( still in progress )...
+Timed trivia game with a gaming theme! Enjoy.
